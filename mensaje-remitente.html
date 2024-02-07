@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respuesta Automática</title>
+    <style type="text/css">
+        /* Estilos CSS */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0066cc;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666666;
+            line-height: 1.6;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: #333333;
+        }
+    </style>
+</head>
+<body bgcolor="#f8f8f8" text="#333333" link="#0066cc" yahoo="fix">
+    <table cellspacing="0" cellpadding="0" border="0" role="presentation" class="nl2go-body-table" width="100%" style="background-color: #f8f8f8; width: 100%;">
+        <tr>
+            <td>
+                <table cellspacing="0" cellpadding="0" border="0" role="presentation" width="100%" align="left" class="r0-o" style="table-layout: fixed; width: 100%;">
+                    <tr>
+                        <td valign="top" class="r1-i" style="background-color: #f8f8f8;">
+                            <table cellspacing="0" cellpadding="0" border="0" role="presentation" width="100%" align="center" class="r3-o" style="table-layout: fixed; width: 100%;">
+                                <tr>
+                                    <td class="r4-i" style="padding-top: 20px;">
+                                        <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+                                            <tr>
+                                                <th width="100%" valign="top" class="r5-c" style="font-weight: normal;">
+                                                    <table cellspacing="0" cellpadding="0" border="0" role="presentation" width="100%" align="left" class="r0-o" style="table-layout: fixed; width: 100%;">
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+                                                                    <tr>
+                                                                        <div class="container">
+                                                                            <h2>Hola {{NOMBRE_REMITENTE}}!</h2>
+                                                                            <p>Gracias por ponerte en contacto con nosotros. Hemos recibido tu mensaje y nos pondremos en contacto contigo lo antes posible.</p>
+                                                                            <h3>Detalles del mensaje:</h3>
+                                                                            <ul>
+                                                                                <li><strong>Nombre:</strong> {{NOMBRE_REMITENTE}}</li>
+                                                                                <li><strong>Email:</strong> {{EMAIL_REMITENTE}}</li>
+                                                                                <li><strong>Telefono:</strong> {{TELEFONO_REMITENTE}}</li>
+                                                                                <li><strong>Mensaje:</strong> {{MENSAJE_REMITENTE}}</li>
+                                                                            </ul>
+                                                                            <p>Gracias de nuevo por contactarnos!</p>
+                                                                            <p>Saludos,<br>Tu Equipo</p>
+                                                                        </div>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
